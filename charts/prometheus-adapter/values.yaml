@@ -28,8 +28,8 @@ customLabels: {}
 # Url to access prometheus
 prometheus:
   # Value is templated
-  url: http://prometheus-operated.cattle-prometheus
-  port: 9090
+  url: http://access-prometheus.cattle-prometheus.svc
+  port: 80
   path: ""
 
 replicas: 1
